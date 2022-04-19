@@ -5,8 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de senhas</title>
+    <meta name="keywords" content="Gerador de senhas, gerador password">
+
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <img class="logo" src="./assets/logo.png" alt="gerador de senha logo" />
+
+    <main class="container-input">
+        <span>Tamanho <span id="valor"></span> caracteres</span>
+      <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
+
+      <button id="button" class="button-cta">Gerar senha</button>
+
+    </main>
+
+
     
+    <script src="script.js"></script>
 </body>
 </html>
